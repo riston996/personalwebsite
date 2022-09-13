@@ -271,10 +271,24 @@
     </section>
     <!-- footer section -->
    <!-- end client section -->
-
+   <script src="https://smtpjs.com/v3/smtp.js"></script>
+   <script>
+    function sendEmail(){
+    Email.send({
+    Host : "smtp.gmail.com",
+    Username : "aarematterhorneuropean@gmail.com",
+    Password : "Jesus4ever:)",
+    To : 'aarematterhorneuropean@gmail.com',
+    From : document.getElementByID("inputEmail4").value,
+    Subject : "New contact form",
+    Body : "And this is the body"
+}).then(
+  message => alert(message));
+    }
+   </script>
    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
    <script type="text/javascript" src="js/bootstrap.js"></script>
-
+  
     </body>
 
 </html>
