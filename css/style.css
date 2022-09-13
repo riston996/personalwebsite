@@ -51,8 +51,9 @@ body {
   /*header section*/
   .hero_area {
     height: 94vh;
-    background: -webkit-gradient(linear, left top, right top, from(rgb(9, 204, 234)), to(rgb(41, 67, 216)));
-    background: linear-gradient(to right,rgb(9, 204, 234), rgb(41, 67, 216));
+    background: #12c2e9; 
+    background: -webkit-linear-gradient(to left, #12c2e9, #c471ed,#f64f59); 
+    background: linear-gradient(to left, #12c2e9, #c471ed,#f64f59); 
   }
   
   .hero_area::before {
@@ -177,7 +178,7 @@ body {
   }
   
   .welcome_section .img-box {
-    width: 65%;
+    width: 50%;
     margin: 0 auto;
   }
   
@@ -191,7 +192,7 @@ body {
   
   .welcome_section .detail-box a {
     display: inline-block;
-    padding: 12px 40px;
+    padding: 0px 40px;
     background-color: #feb543;
     color: #f9fcfb;
     border-radius: 25px;
@@ -211,12 +212,16 @@ body {
   
   .about_section {
     text-align: center;
-    color: white;
-    background-image: url(../images/service-bg3.png);
+    /*
+    color: white; */
+    background-image: url(../images/service-bg4.png);    
+    background: #B86BF8; 
+    background: -webkit-linear-gradient(to left, #B86BF8, #6BB5F8); 
+    background: linear-gradient(to left, #B86BF8, #6BB5F8);
     background-size: 100% 100%;
     padding-top: 50px;
     padding-bottom: 200px;
-    margin-bottom: 100px;
+    margin-bottom: 0px;
   }
   
   .about_section .img-box {
@@ -253,8 +258,13 @@ body {
   
   .service_section {
     text-align: center;
+    /*
     color: #f9fcfb;
     background-image: url(../images/service-bg2.png);
+    */
+    background: #FFCBA0; 
+    background: -webkit-linear-gradient(to left, #FFCBA0, #DD5789,#9B5BE6); 
+    background: linear-gradient(to left, #FFCBA0, #DD5789,#9B5BE6);   
     background-size: 100% 100%;
     padding-top: 10px;
     padding-bottom: 125px;
@@ -323,6 +333,11 @@ body {
     margin-bottom: 150px;
   }
 
+  .contact_section {
+    background: #b6f3c9; 
+    background: -webkit-linear-gradient(to left, #b6f3c9, #4766f4); 
+    background: linear-gradient(to left, #b6f3c9, #4766f4);
+  }
   
 .contact_section .contact_heading {
     text-align: center;
@@ -385,8 +400,8 @@ body {
   .footer_bg {
     background-image: url(../images/footer-bg2.png);
     background-size: cover;
-    padding-top: 280px;
-    margin-top: -125px;
+    padding-top: 50px;
+    margin-top: -50px;
   }
   
   .info_section {
